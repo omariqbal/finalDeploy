@@ -18,6 +18,10 @@
         <AssociationConnector Association="DBModel.FK_tour_places_place" ManuallyRouted="false" />
         <AssociationConnector Association="DBModel.FK_tour_places_tour" ManuallyRouted="false" />
         <AssociationConnector Association="DBModel.FK_tour_tour_places" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="DBModel.tour_client" Width="1.5" PointX="12" PointY="1.25" />
+        <AssociationConnector Association="DBModel.FK_tour_client_Client" />
+        <AssociationConnector Association="DBModel.FK_tour_client_ClientUser" />
+        <AssociationConnector Association="DBModel.FK_tour_client_Tour" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
